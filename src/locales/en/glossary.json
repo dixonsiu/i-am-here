@@ -1,0 +1,13 @@
+{
+    "title": "I'm here",
+    "msg": {
+        "info": {
+            "description": "Click the button to share your location."
+        }
+    },
+    "btn": {
+        "tryIt": {
+            "label": "Click ME"
+        }
+    }
+}

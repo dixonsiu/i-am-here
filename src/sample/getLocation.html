@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title data-i18n="glossary:title"></title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/i18next/8.4.3/i18next.min.js"></script>
+  <script src="https://unpkg.com/i18next-xhr-backend/i18nextXHRBackend.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/i18next-browser-languagedetector/2.0.0/i18nextBrowserLanguageDetector.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-i18next/1.2.0/jquery-i18next.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Raleway:400,200' rel='stylesheet' type='text/css'>
+  <script type="text/javascript" src="https://demo.personium.io/dixonsiu/__/js/app.js" ></script>
+</head>
+<body>
+  <div class="display-parent-div" id="displayParentDiv">
+    <!--<header>-->
+    <header class="profile-menu"></header>
+    <!--</header>-->
+    <section class="dashboard-block" id="main-myService">
+      <h2>My Location</h2>
+      <p id="demo" data-i18n="glossary:msg.info.description"></p>
+      <button onclick="getLocation()" data-i18n="glossary:btn:tryIt.label"></button>
+      <div id="mapholder"></div>
+      <div class="user-dashboard" id="dashboard_ins"></div>
+    </section>
+    <section id="main-info">
+      <h2>Information</h2>
+      <ul class="list" id="information"></ul>
+    </section>
+  </div>
+</body>
+</html>
